@@ -103,7 +103,7 @@ body{
 .easter-egg-trigger {
     position: fixed;
     bottom: 16px;
-    right:20px;
+    left:20px;
     cursor:pointer;
     font-size:1.2rem;
     opacity:0.25;
@@ -187,6 +187,18 @@ body{
     /* object-fit: cover; */
     border-radius: 12px;
     margin-bottom: 16px;
+}
+
+.music-btn {
+    position: fixed;
+    bottom: 16px;
+    right: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border: none;
+    padding: 10px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
 }
 
 @media (max-width: 600px) {
