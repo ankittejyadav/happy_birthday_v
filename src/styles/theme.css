@@ -106,11 +106,11 @@ body{
     left:20px;
     cursor:pointer;
     font-size:1.2rem;
-    opacity:0.25;
+    opacity:0.05;
 }
 
 .easter-egg-trigger:hover {
-    opacity:0.6;
+    opacity:0.3;
 }
 
 .easter-egg-overlay{
@@ -213,5 +213,52 @@ body{
     .why-special h2,
     .gallery h2 {
         font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 390px) {
+
+    .reason-card,
+    .gallery-card {
+        padding: 18px;
+        border-radius: 16px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+    }
+}
+
+@media (max-width: 390px) {
+
+    .reason-card p,
+    .gallery-card p {
+        font-size: 0.95rem;
+        line-height: 1.45;
+    }
+}
+
+@media (max-width: 390px) {
+
+    .why-special h2,
+    .gallery h2 {
+        font-size: 1.6rem;
+        margin-bottom: 24px;
+    }
+}
+
+@media (max-width: 390px) {
+
+    .why-special,
+    .gallery {
+        padding: 60px 16px;
+    }
+}
+
+@media (max-width: 390px) {
+    .music-btn {
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
+        bottom: 14px;
+        font-size: 0.85rem;
+        padding: 10px 16px;
     }
 }
